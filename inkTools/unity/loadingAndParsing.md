@@ -26,7 +26,7 @@ can be seen in the Unity inspector.
 
 The plugin has a number of built tools for parsing story data within its custom inspector:
 
-![ink-Unity Inspector Browser](../../images/inkTools-Unity-Inspector.png 'ink-Unity Inspector')
+![ink-Unity Inspector Browser](https://kentontaylorhoward.github.io/DiGRA2024-ink-workshop/images/inkTools-Unity-Inspector.png 'ink-Unity Inspector')
 
 This example shows the plugin’s Unity inspector. Several things an be seen here:
 

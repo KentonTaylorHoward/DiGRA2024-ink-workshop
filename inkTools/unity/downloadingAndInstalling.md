@@ -8,8 +8,7 @@ Other options can also be found on the GitHub Page for the plugin: [https://gith
 
 ## Installing
 
-Installing the plugin can also be done in multiple ways, but we suggest following the manual installation instructions for installing the plugin
-via the Package Manage at [https://openupm.com/packages/com.inkle.ink-unity-integration/](https://openupm.com/packages/com.inkle.ink-unity-integration/). Click on "Manual Installation" and follow the text instructions.
+Installing the plugin can also be done in multiple ways, but we suggest following the manual installation instructions for installing the plugin via the Package Manage at [https://openupm.com/packages/com.inkle.ink-unity-integration/](https://openupm.com/packages/com.inkle.ink-unity-integration/). Click on "Manual Installation" and follow the text instructions.
 
 ## Accessing the Demo
 

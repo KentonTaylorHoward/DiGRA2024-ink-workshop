@@ -15,8 +15,7 @@ using UnityEngine;
 using Ink.Runtime;
 ```
 
-In order to access a file, it must exist as an asset within the project. Because the ink-unity-integration plugin will automatically create the
-necessary compiled JSON file, this can easily be used.
+In order to access a file, it must exist as an asset within the project. Because the ink-unity-integration plugin will automatically create the necessary compiled JSON file, this can easily be used.
 
 A common way for a C# scripting file in Unity to access an asset is to use the **TextAsset** class provided by Unity. This allows for
 associating an asset in the Unity Editor with a cs field.
