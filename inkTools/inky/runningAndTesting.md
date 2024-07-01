@@ -13,9 +13,9 @@ then compile it in order to test and debug.
 ## Testing
 
 One of Inky’s most valuable features is the ability to both write ink code and see the results of that code immediately. Even more
-importantly, you can play the resulting story immediately as well in the right pane shown above. Regular story text is displayed in black, while gray text indicates choices that can be clicked on.
+importantly, you can play the resulting story immediately as well. Regular story text is displayed in black, while gray text indicates choices that can be clicked on.
 
-Choices can be "rewound" by clicking the single arrow in the screenshot shown above, allowing you to easily test alternative choices. The double arrow restarts the story.
+Choices can be "rewound" by clicking the single arrow in the right pane that appears above the story, allowing you to easily test alternative choices. Clicking the double arrow restarts the story from the beginning.
 
 Note that some functionality cannot be tested within inky. In particular, CSS styling, images, and most other visual features do not
 function within inky and cannot be tested from within the editor. Using the "export for Web" or "export story.JS only" options are the best way to test these features.
