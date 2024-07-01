@@ -2,9 +2,9 @@
 ** [Presenters](/introduction/presenters.md)
 ** [Previous and Future Work](/introduction/previousWork.md)
 ** [What this is – and is not](/introduction/whatThisIs.md)
-** What is ink?
+** [What is ink?](/introduction/whatIsInk.md)
 ---
-Stories
+* Stories
 ** Story Terms
 ** Line By Line
 ** Alternatives
