@@ -43,9 +43,6 @@ I've walked this floor and seen this room.
 
 In the previous example, the first and third lines are comments. They will not be shown to a reader.
 
-In the screenshot above, the comments can be seen in the code on the right, and what will be shown to the reader appears on the left - note
-that the comments do not appear there!
-
 Like many languages, there are also exceptions to rules. By default, each line in ink will be separate. This is true of most content and all comments. However, there is a way to have one output line merged into the next. In ink, this is known as using *glue*.
 
 ## Gluing lines
