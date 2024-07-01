@@ -13,24 +13,24 @@
 ** [Example: History Generation](/stories/exampleHistoryGeneration.md)
 ---
 * Interactivity
-** Choices and Weaves
-** Example: Merchant
-** Knots and Diverts
-** Weaves and Loops
-** Example: Banking
-** Tunnels
-** Example: Revised Banking
-** Multiple Files
---
-Short Break
---
+** [Choices and Weaves](/interactivity/choiceAndWeave.md)
+** [Example: Merchant](/interactivity/exampleMerchant.md)
+** [Knots and Diverts](/interactivity/knotsAndDiverts.md)
+** [Weaves and Loops](/interactivity/weavesAndLoops.md)
+** [Example: Banking](/interactivity/exampleBanking.md)
+** [Tunnels](/interactivity/tunnels.md)
+** [Example: Revised Banking](/interactivity/exampleRevisedBanking.md)
+** [Multiple Files](/interactivity/multipleFiles.md)
+---
+* Short Break
+---
 * ink + tools
 ** General
 ** Tags
 ** Example: Emotive Tags
 ** Thinking of Stories as Containers
 ** ink and Compiled JSON
---
+---
 * Inky
 ** Downloading and Installing
 ** Running, Testing, and Exporting
@@ -42,19 +42,19 @@ Short Break
 ** Node.js + JavaScript API: Setting up, Accessing Objects, and Compiling ink Code
 ** Node.js + JavaScript API: Useful Properties and Methods
 ** Node.js + JavaScript API: Example: Command-Line Banking
---
+---
 Lunch Break
---
+---
 * Unity (2022.3.33f1 LTS)
 ** Downloading and Installing Plugin (Open UPM)
 ** Loading and Parsing Story Data
 ** Working with Story Data
---
+---
 * Unreal 5.4
 ** Downloading and Installing Plugin
 ** Loading and Parsing Story Data
 ** Working with Story Data
---
+---
 * Q&A
 ** Discussion
 ** Resources
