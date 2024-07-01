@@ -37,10 +37,10 @@
 ** [CSS and Style Tags](/inkTools/inky/CSSAndStyleTags.md)
 ---
 * ink + tools: VS Code
-** ink Extension in Visual Studio Code
-** Node.js + JavaScript API: Setting up, Accessing Objects, and Compiling ink Code
-** Node.js + JavaScript API: Useful Properties and Methods
-** Node.js + JavaScript API: Example: Command-Line Banking
+** [ink Extension in Visual Studio Code](/inkTools/vscode/inkExtension.md)
+** [Node.js + JavaScript API: Setting up, Accessing Objects, and Compiling ink Code](/inkTools/vscode/settingAccessingCompiling.md)
+** [Node.js + JavaScript API: Useful Properties and Methods](/inkTools/vscode/propertiesAndMethods.md)
+** [Node.js + JavaScript API: Example: Command-Line Banking](/inkTools/vscode/exampleCommandLineBanking.md)
 ---
 Lunch Break
 ---
