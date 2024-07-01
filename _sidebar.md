@@ -5,12 +5,12 @@
 ** [What is ink?](/introduction/whatIsInk.md)
 ---
 * Stories
-** Story Terms
-** Line By Line
-** Alternatives
-** Example: Random Encounters
-** Saving and Comparing Data
-** Example: History Generation
+** [Story Terms](/stories/storyTerms.md)
+** [Line By Line](/stories/lineByLine.md)
+** [Alternatives](/stories/alternatives.md)
+** [Example: Random Encounters](/stories/exampleRandomEncounters.md)
+** [Saving and Comparing Data](/stories/savingAndComparing.md)
+** [Example: History Generation](/stories/exampleHistoryGeneration.md)
 ---
 * Interactivity
 ** Choices and Weaves
