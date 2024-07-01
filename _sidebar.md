@@ -29,12 +29,14 @@
 ** [Example: Emotive Tags](/inkTools/general/exampleEmotiveTags.md)
 ** [Thinking of Stories as Containers](/inkTools/general/storyContainers.md)
 ** [ink and Compiled JSON](/inkTools/general/compiledJSON.md)
-* Inky
-** Downloading and Installing
-** Running, Testing, and Exporting
-** Export for Web
-** CSS and Style Tags
-* VS Code
+---
+* ink + tools: Inky
+** [Downloading and Installing](/inkTools/inky/downloadingAndInstalling.md)
+** [Running and Testing](/inkTools/inky/runningAndTesting.md)
+** [Export for Web](/inkTools/inky/exportingForWeb.md)
+** [CSS and Style Tags](/inkTools/inky/CSSAndStyleTags.md)
+---
+* ink + tools: VS Code
 ** ink Extension in Visual Studio Code
 ** Node.js + JavaScript API: Setting up, Accessing Objects, and Compiling ink Code
 ** Node.js + JavaScript API: Useful Properties and Methods
@@ -42,13 +44,13 @@
 ---
 Lunch Break
 ---
-* Unity (2022.3.33f1 LTS)
+* ink + tools: Unity (2022.3.33f1 LTS)
 ** Downloading and Installing Plugin (Open UPM)
 ** Loading and Parsing Story Data
 ** Working with Story Data
 ---
 
-* Unreal 5.4
+* ink + tools: Unreal 5.4
 ** Downloading and Installing Plugin
 ** Loading and Parsing Story Data
 ** Working with Story Data
