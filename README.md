@@ -8,4 +8,4 @@ To get started, click on ["Presenters"](/introduction/presenters.md) to learn mo
 
 ## *Viewing this on GitHub?*
 
-This is best viewed using GitHub Pages [as a webpage](https://kentontaylorhoward.github.io/DiGRA2024Testing/).
+This is best viewed using GitHub Pages [as a webpage](https://kentontaylorhoward.github.io/DiGRA2024-ink-workshop/).
