@@ -55,5 +55,4 @@
   * [Working with Story Data](/inkTools/unreal/nodes.md)
 ---
 * Q&A
-  * Discussion
-  * Resources
+  * [Resources](/discussion/resources.md)
