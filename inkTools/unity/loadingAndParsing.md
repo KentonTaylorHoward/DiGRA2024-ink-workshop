@@ -4,15 +4,15 @@
 
 Loading story data into the Unity plugin requires two things: the story’s ".ink" file and the story’s exported ".json" file.
 
-Story data can then be loaded via C#. Doing so requires including the ink runtime library:
+Story data can then be loaded via cs. Doing so requires including the ink runtime library:
 
-```csharp
+```cs
 using Ink.Runtime;
 ```
 
-ink stories are represented in C# using the Story variable type, like this:
+ink stories are represented in cs using the Story variable type, like this:
 
-```csharp
+```cs
 myStory = new Story (inkJSONasset.text)
 ```
 

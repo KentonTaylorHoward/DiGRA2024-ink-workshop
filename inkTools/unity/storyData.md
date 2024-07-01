@@ -10,7 +10,7 @@ To use the C# API provided by the plugin, a compiled JSON file must be provided 
 plugin, this begins with a library containing all necessary classes for working with ink data: *Ink.Runtime*. This line should follow the
 existing *UnityEngine* inclusion line:
 
-```csharp
+```cs
 using UnityEngine;
 using Ink.Runtime;
 ```
@@ -19,29 +19,28 @@ In order to access a file, it must exist as an asset within the project. Because
 necessary compiled JSON file, this can easily be used.
 
 A common way for a C# scripting file in Unity to access an asset is to use the **TextAsset** class provided by Unity. This allows for
-associating an asset in the Unity Editor with a C# field.
+associating an asset in the Unity Editor with a cs field.
 
-```csharp
+```cs
 public class inkExampleLoader : MonoBehaviour
-
 {
     [SerializeField]
     TextAsset jsonFile;
 }
 ```
 
-**Note:** There are multiple ways to access C# fields in Unity. Generally, if the field will only be used in the class and not shared
-across other files, the attribute *\[SerializeField\]* can be used. This "shares" the field with itself and Unity only.
+**Note:** There are multiple ways to access cs fields in Unity. Generally, if the field will only be used in the class and not shared
+across other files, the attribute `[SerializeField]` can be used. This "shares" the field with itself and Unity only.
 
 After associating a compiled JSON file in the Unity Editor with the updated field in the Inspector window in Unity, it can be accessed more
-directly in the C# code.
+directly in the cs code.
 
 The **TextAsset** class exposes a *text* property containing the loaded textual content as processed by Unity. In order to create a **Story**
 object in ink, it needs the text of the compiled JSON file. Updating the code shown so far, the scripting component class might be the following.
 
 **inkExampleLoader.cs**
 
-```csharp
+```cs
 using UnityEngine;
 using Ink.Runtime;
 
@@ -65,7 +64,7 @@ component class.
 The first property to use when working with Unity data is named *canContinue*. This is a Boolean value. It will be *true* if there is at
 least one more line in the story. It will be *false* if the story has ended or does not contain any lines.
 
-```csharp
+```cs
 // Create a story based on the compiled JSON text.
 Story s = new Story(jsonFile.text);
 
@@ -88,7 +87,7 @@ This has one line.
 
 **inkExampleLoader.cs**
 
-```csharp
+```cs
 using UnityEngine;
 using Ink.Runtime;
 
@@ -110,7 +109,6 @@ public class inkExampleLoader : MonoBehaviour
         }
     }
 }
-
 ```
 
 In the previous example, the single line of the story will be loaded based on the use of the *Continue()* method.
@@ -120,17 +118,16 @@ In the previous example, the single line of the story will be loaded based on th
 Tags are loaded on a per-line basis. The property *currentTags* will contain any tags, if any were found on the last line processed. In C#,
 this property is a List.
 
-```csharp
+```cs
 // Were any tags loaded?
 if(s.currentTags.Count > 0 )
 {
     // Process tags.
 }
-
 ```
 
 In C#, the *Count* property of a List will contain the number of entries within the collection. To access the first entry, its index position can
-be used. (In C#, the first position is the 0 index position.)
+be used. (In cs, the first position is the 0 index position.)
 
 **Main.ink**
 
@@ -140,7 +137,7 @@ This has one line. #This is a tag.
 
 **inkExampleLoader.cs**
 
-```csharp
+```cs
 using UnityEngine;
 using Ink.Runtime;
 
@@ -180,7 +177,7 @@ continue to read lines until it encounters a weave.
 
 **inkExampleLoader.cs**
 
-```csharp
+```cs
 using UnityEngine;
 using Ink.Runtime;
 
@@ -204,7 +201,7 @@ public class inkExampleLoader : MonoBehaviour
 }
 ```
 
-In the previous example, multiple lines will be loaded by the use of the    *ContinueMaximally()* method. It will always load up to the next weave
+In the previous example, multiple lines will be loaded by the use of the *ContinueMaximally()* method. It will always load up to the next weave
 or end of the story, whichever comes first.
 
 ## "What are the current choices?": *currentChoices*
@@ -214,7 +211,7 @@ of the *Continue()* or *ContinueMaximally()* methods.
 
 **inkExampleLoader.cs**
 
-```csharp
+```cs
 using UnityEngine;
 using Ink.Runtime;
 
@@ -264,7 +261,7 @@ This is a line.
 
 **inkExampleLoader.cs**
 
-```csharp
+```cs
 using UnityEngine;
 using Ink.Runtime;
 
@@ -310,7 +307,7 @@ As an interface, the *variablesState* property expects the name of a variable ex
 
 **inkExampleLoader.cs**
 
-```csharp
+```cs
 using UnityEngine;
 using Ink.Runtime;
 
